@@ -1,0 +1,52 @@
+*{
+
+     margin: 0;
+     padding: 0;
+}
+
+img{
+
+     width: 450px;
+     height: 270px;
+}
+
+.card{
+
+     border: 5px solid palegreen;
+     border-radius: 8px;
+     width: fit-content;
+     box-shadow: 25px -10px 2px palegreen;
+     transition: 2s ease-in-out;
+}
+
+.r1,.r2{
+
+      display: flex;
+      justify-content: space-evenly;
+}
+
+.r1{
+
+    margin-top: 60px;
+}
+
+.r2{
+
+      margin-top: 70px;
+
+}
+
+.top p{
+
+      font-size: 30px;
+      text-align: center;
+      margin-top: 10px;
+      font-family: sans-serif;
+}
+
+.card:hover{
+
+      box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+

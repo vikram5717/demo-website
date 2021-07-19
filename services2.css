@@ -1,0 +1,64 @@
+body{
+
+     background-color: #FEF8F5;
+     margin: 0;
+     padding: 0;
+
+}
+
+.top{
+
+     font-size: 35px;
+     text-align: center;
+     color: blue;
+     transition: 3s ease-out;
+     
+}
+
+img{
+       background-color: orange;
+       border: 2px solid orange;
+       border-radius: 50%;
+       width: 90px;
+       height: 90px;
+       margin-top: 50px;
+       transition: 3s ease-in-out;
+}
+
+.card{
+
+     border: 6px solid palegreen;
+     width: 20%;
+     text-align: center;
+     height: 300px;
+     background-color: palegreen;
+     border-radius: 4px;
+}
+
+.ip1{
+
+     font-size: 22px;
+}
+
+.ip2{
+
+     font-size: 18px;
+}
+
+.row{
+      margin-top: 150px; 
+     display: flex;
+     justify-content: space-evenly;
+}
+
+p{
+
+    color: #4E4039;
+}
+
+.line{
+
+      width: 70px;
+      height: 2px;
+      background-color: orangered;
+}
